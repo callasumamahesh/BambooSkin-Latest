@@ -1,0 +1,210 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "image_banner_p3XEz8": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_z3zrcx": {
+          "type": "heading",
+          "settings": {
+            "heading": "THE BAMBOO SKIN",
+            "heading_size": "hxl"
+          }
+        },
+        "text_76LicC": {
+          "type": "text",
+          "settings": {
+            "text": "Breath Wth My Fabric...",
+            "text_style": "subtitle"
+          }
+        },
+        "buttons_pY9tpi": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Shop now",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_z3zrcx",
+        "text_76LicC",
+        "buttons_pY9tpi"
+      ],
+      "custom_css": [],
+      "settings": {
+        "image": "shopify://shop_images/ImageBarer1.webp",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-left",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-4",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": false
+      }
+    },
+    "collage_mr9Pbz": {
+      "type": "collage",
+      "blocks": {
+        "collection_k8f4Dt": {
+          "type": "collection",
+          "settings": {
+            "collection": "childrens-wearing"
+          }
+        },
+        "collection_yCj3mQ": {
+          "type": "collection",
+          "settings": {
+            "collection": "womens-wearing"
+          }
+        },
+        "collection_iEd4mg": {
+          "type": "collection",
+          "settings": {
+            "collection": "mens-wearing"
+          }
+        }
+      },
+      "block_order": [
+        "collection_k8f4Dt",
+        "collection_yCj3mQ",
+        "collection_iEd4mg"
+      ],
+      "settings": {
+        "heading": "EXPLORE COLLECTIONS..",
+        "heading_size": "hxxl",
+        "desktop_layout": "left",
+        "mobile_layout": "column",
+        "card_styles": "none",
+        "color_scheme": "scheme-2",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "multicolumn_U3BnJH": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_rCd9xn": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/BambooCloth1.webp",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_NikAQL": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/BambooCloth2.webp",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_RwbeNr": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/BambooCloth3.webp",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_rCd9xn",
+        "column_NikAQL",
+        "column_RwbeNr"
+      ],
+      "settings": {
+        "title": "Why Bamboo Clothing",
+        "heading_size": "hxl",
+        "image_width": "full",
+        "image_ratio": "portrait",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Button label",
+        "button_link": "",
+        "color_scheme": "scheme-c7ba4a08-a0e3-4284-b1fe-c66898169489",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_banner_gmKbqN": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_tN4iWe": {
+          "type": "heading",
+          "settings": {
+            "heading": "SALE IS ON",
+            "heading_size": "hxl"
+          }
+        },
+        "text_4qwFJe": {
+          "type": "text",
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "subtitle"
+          }
+        },
+        "buttons_fLk3PP": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_tN4iWe",
+        "text_4qwFJe",
+        "buttons_fLk3PP"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/BambooSkin1.webp",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-4",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
+      }
+    }
+  },
+  "order": [
+    "image_banner_p3XEz8",
+    "collage_mr9Pbz",
+    "multicolumn_U3BnJH",
+    "image_banner_gmKbqN"
+  ]
+}

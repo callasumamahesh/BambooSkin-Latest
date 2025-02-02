@@ -1,0 +1,139 @@
+:root{
+    --ButtonPimaryColor: #78C257;
+    --ButtonColor:#000000;
+}
+#MainContent .banner .banner__content .banner__box .banner__buttons a{
+    color: var(--ButtonColor);
+    background-color: var(--ButtonPimaryColor);
+    font-weight: bolder;
+    opacity: 1;
+    text-transform: capitalize;
+}
+
+@media (min-width:600px) {
+    .header-wrapper header{
+        display: flex;
+        justify-content: space-between;
+    }
+    .header-wrapper header .header__heading a span{
+        color: black;
+        font-weight: 900;
+    }
+    .header-wrapper header .header__heading a span:hover{
+        color: black;
+    }
+    .header-wrapper header .header__inline-menu ul li a span{
+        text-decoration: none;
+        font-weight: 600;
+    }
+    
+    .header-wrapper header .header__inline-menu ul li a span:hover{
+        text-decoration: none;
+        font-weight: 900;
+    }
+    #MainContent .banner{
+        height: 100vh;
+    }
+    #MainContent #Banner-template--24112411672898__image_banner_p3XEz8 .banner__content{
+        margin: 0px;
+        max-width: unset;
+    }
+    #MainContent #Banner-template--24112411672898__image_banner_p3XEz8 .banner__content .banner__box{
+        /* min-width: 1000px; */
+        display: flex;
+        flex-direction: column;
+        height: 90vh;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    #MainContent #Banner-template--24112411672898__image_banner_p3XEz8 .banner__content .banner__box h2{
+        width: 100%;
+        text-align: left;
+    }
+    #MainContent .banner .banner__content .banner__box{
+        width: 100%;
+    }
+    #MainContent .banner .banner__content .banner__box .banner__heading{
+        font-size: 10rem;
+        font-weight: bolder;
+    }
+    #MainContent .banner .banner__content .banner__box .banner__text p{
+        color: white;
+        font-size: 2rem;
+    }
+
+
+
+
+    /* Explore Collections */
+    #MainContent .shopify-section .gradient .collage .collage__item .card-wrapper .card .card__content a{
+        font-weight: 900;
+        font-size: 2rem;
+    }
+
+    #MainContent 
+    #shopify-section-template--24112411672898__image_banner_gmKbqN 
+    .banner .banner__content{
+        align-items: flex-end; 
+    }
+    #MainContent 
+    #shopify-section-template--24112411672898__image_banner_gmKbqN 
+    .banner .banner__content .banner__box h2{
+        font-weight: 900;
+        font-size: 12rem;
+    }
+     #MainContent 
+    #shopify-section-template--24112411672898__image_banner_gmKbqN 
+    .banner .banner__content .banner__box .banner__text p{
+        font-size: 2rem;
+        font-weight: 500;
+    }
+
+
+    #MainContent .shopify-section .gradient .collection-list-wrapper .slider-mobile-gutter ul li .card-wrapper .card .card__content a{
+        font-weight: 900;
+    }
+
+
+
+
+    /* Footer */
+    footer .footer__content-top .footer-block--newsletter{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+
+@media (max-width:600px) {
+    #MainContent .banner{
+        height: 95vh;
+    }
+    #MainContent .shopify-section .gradient .collage-wrapper-title{
+        font-size: 4rem;
+        font-weight: bolder;
+    }
+    #MainContent .shopify-section .gradient .collage-wrapper-title .collection-list-title {
+        font-size: 4rem;
+        font-weight: bolder;
+    }
+    #MainContent 
+    #shopify-section-template--24112411672898__image_banner_gmKbqN 
+    .banner .banner__content .banner__box h2{
+        font-size: 5rem;
+    }
+    #MainContent 
+    #shopify-section-template--24112411672898__image_banner_gmKbqN 
+    .banner .banner__content .banner__box .banner__text {
+        font-size: 1.8rem;
+    }
+
+    #MainContent #Banner-template--24112411672898__image_banner_p3XEz8 .banner__content .banner__box{
+        height: 90vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+}
