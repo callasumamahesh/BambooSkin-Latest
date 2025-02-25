@@ -1,0 +1,249 @@
+{% schema %}
+{
+  "name": "Testimonial Carousel",
+  "settings": [
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Section Heading",
+      "default": "See What Customers Say About Us"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "testimonial",
+      "name": "Testimonial",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Testimonial Image"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Title",
+          "default": "Customer Name"
+        },
+        {
+          "type": "textarea",
+          "id": "description",
+          "label": "Description",
+          "default": "Share what this customer had to say"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Testimonial Carousel",
+      "blocks": [
+        {
+          "type": "testimonial"
+        },
+        {
+          "type": "testimonial"
+        },
+        {
+          "type": "testimonial"
+        },
+        {
+          "type": "testimonial"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}
+
+<style>
+.testimonial-section {
+  padding: 4rem 2rem;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.section-heading {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.carousel-container {
+  position: relative;
+}
+
+.carousel-wrapper {
+  overflow: hidden;
+}
+
+.carousel-track {
+  display: flex;
+  gap: 1rem;
+  transition: transform 0.3s ease;
+}
+
+.testimonial-card {
+  flex: 0 0 calc(25% - 0.75rem);
+  position: relative;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.testimonial-image {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  display: block;
+}
+
+.testimonial-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  padding: 1.5rem;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.testimonial-card:hover .testimonial-content {
+  opacity: 1;
+}
+
+.testimonial-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.testimonial-description {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.carousel-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: white;
+  border: none;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+}
+
+.prev-button {
+  left: -20px;
+}
+
+.next-button {
+  right: -20px;
+}
+
+@media screen and (max-width: 1024px) {
+  .testimonial-card {
+    flex: 0 0 calc(33.333% - 0.667rem);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .testimonial-card {
+    flex: 0 0 calc(50% - 0.5rem);
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .testimonial-card {
+    flex: 0 0 100%;
+  }
+}
+</style>
+
+<div class="testimonial-section">
+  <h2 class="section-heading">{{ section.settings.heading }}</h2>
+  
+  <div class="carousel-container">
+    <button class="carousel-button prev-button" aria-label="Previous">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M15 18l-6-6 6-6"/>
+      </svg>
+    </button>
+    
+    <div class="carousel-wrapper">
+      <div class="carousel-track">
+        {% for block in section.blocks %}
+          {% if block.type == 'testimonial' %}
+            <div class="testimonial-card" {{ block.shopify_attributes }}>
+              {% if block.settings.image %}
+                {{ block.settings.image | image_url: width: 400 | image_tag: class: 'testimonial-image', loading: 'lazy' }}
+              {% endif %}
+              
+              <div class="testimonial-content">
+                {% if block.settings.title != blank %}
+                  <h3 class="testimonial-title">{{ block.settings.title }}</h3>
+                {% endif %}
+                
+                {% if block.settings.description != blank %}
+                  <p class="testimonial-description">{{ block.settings.description }}</p>
+                {% endif %}
+              </div>
+            </div>
+          {% endif %}
+        {% endfor %}
+      </div>
+    </div>
+    
+    <button class="carousel-button next-button" aria-label="Next">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M9 18l6-6-6-6"/>
+      </svg>
+    </button>
+  </div>
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const track = document.querySelector('.carousel-track');
+  const slides = Array.from(track.children);
+  const nextButton = document.querySelector('.next-button');
+  const prevButton = document.querySelector('.prev-button');
+  let currentIndex = 0;
+  
+  function updateSlidePosition() {
+    const slideWidth = slides[0].getBoundingClientRect().width;
+    track.style.transform = `translateX(-${currentIndex * (slideWidth + 16)}px)`;
+  }
+  
+  function moveSlides(direction) {
+    const slidesPerView = window.innerWidth <= 480 ? 1 : 
+                         window.innerWidth <= 768 ? 2 : 
+                         window.innerWidth <= 1024 ? 3 : 4;
+                         
+    if (direction === 'next' && currentIndex < slides.length - slidesPerView) {
+      currentIndex++;
+    } else if (direction === 'prev' && currentIndex > 0) {
+      currentIndex--;
+    }
+    
+    updateSlidePosition();
+  }
+  
+  nextButton.addEventListener('click', () => moveSlides('next'));
+  prevButton.addEventListener('click', () => moveSlides('prev'));
+  
+  window.addEventListener('resize', updateSlidePosition);
+});
+</script>

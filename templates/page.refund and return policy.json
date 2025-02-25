@@ -1,0 +1,171 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "rich_text_xLwLJm": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_PJmFwn": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Refunds and Returns Policy For The Bamboo Skin</strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_3Qt8kL": {
+          "type": "text",
+          "settings": {
+            "text": "<p>At The Bamboo Skin, we are committed to providing high-quality bamboo clothing and ensuring customer satisfaction. If you are not completely satisfied with your purchase, our Refunds and Returns Policy outlines the conditions and processes for returns and refunds.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_PJmFwn",
+        "text_3Qt8kL"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "collapsible_content_eGMLqA": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_gHdYaT": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "General Return Conditions",
+            "icon": "none",
+            "row_content": "<p>To be eligible for a return or refund, please ensure that:</p><ul><li>The item is unused, unwashed, and in its original packaging.</li><li>The return is initiated within <strong>30 days</strong> of the delivery date.</li><li>The product is in its original condition, including all tags and labels.</li></ul><p><strong>Note:</strong> Certain items, such as undergarments or customized products, are not eligible for returns due to hygiene and personalization reasons.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_bVThVW": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Return Process",
+            "icon": "none",
+            "row_content": "<p>Follow these steps to initiate a return:</p><p><strong>1. Contact Us:</strong></p><ul><li>Email our customer support team at <strong>[EMAIL]</strong> with your order number and reason for the return.</li></ul><p></p><p><strong>2. Approval:<br/><br/></strong>Once your request is reviewed, we will approve or decline the return request within <strong>3 business days</strong>.</p><ul><li>If approved, we will provide you with return instructions and the return shipping address.</li></ul><p></p><p><strong>3. Shipping the Item:<br/></strong></p><ul><li>Package the product securely to prevent damage during transit.</li><li>You are responsible for the cost of return shipping unless the return is due to a defective or incorrect product.</li></ul><p></p><p><strong>4. Confirmation:<br/><br/></strong>Once we receive and inspect the returned item, we will notify you of the approval or rejection of your refund.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_hr3dE4": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Refunds",
+            "icon": "none",
+            "row_content": "<h4><strong>Eligibility for Refunds</strong></h4><p>Refunds are issued for:</p><ul><li>Items returned in compliance with the above conditions.</li><li>Items that are defective or damaged upon receipt.</li><li>Incorrect items shipped due to our error.</li></ul><h4><strong>Refund Process</strong></h4><ul><li>Approved refunds will be processed within <strong>7-14 business days</strong> of receiving the returned item.</li><li>Refunds will be issued to the original payment method. Please allow additional time for your bank or payment provider to process the refund.</li></ul><h4><strong>Partial Refunds</strong></h4><p>In certain situations, partial refunds may be granted for:</p><ul><li>Items that show signs of use or damage not caused by our error.</li><li>Returns initiated beyond the 30-day return window but within 60 days.</li></ul>",
+            "page": ""
+          }
+        },
+        "collapsible_row_4V6aQf": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Exchanges",
+            "icon": "none",
+            "row_content": "<p>We offer exchanges for:</p><ul><li>Different sizes or colors of the same product, subject to availability.</li><li>Defective or damaged items.</li></ul><p><strong>Exchange Process:</strong> Follow the same steps outlined in the Return Process. Specify the desired replacement item in your request.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_gL7dAC": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Non-Returnable Items",
+            "icon": "none",
+            "row_content": "<p>The following items are not eligible for returns or refunds:</p><ul><li>Undergarments and intimate apparel.</li><li>Gift cards.</li><li>Items purchased during clearance or final sale promotions (unless defective).</li></ul>",
+            "page": ""
+          }
+        },
+        "collapsible_row_WeYAFR": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Fees and Costs",
+            "icon": "none",
+            "row_content": "<ul><li>Customers are responsible for return shipping costs unless the return is due to a defective or incorrect item.</li><li>A restocking fee of <strong>[amount or percentage, if applicable]</strong> may apply to certain returns.</li></ul>",
+            "page": ""
+          }
+        },
+        "collapsible_row_wcPzbE": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Contact Information",
+            "icon": "none",
+            "row_content": "<p>For questions or assistance with your return or refund, please contact us:</p><ul><li><strong>Email:</strong> [EMAIL]</li><li><strong>Address:</strong> [Address]</li><li><strong>Response Time:</strong> We aim to respond to all inquiries within <strong>2 business days</strong>.</li></ul>",
+            "page": ""
+          }
+        },
+        "collapsible_row_tXwyxY": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Changes to This Policy",
+            "icon": "none",
+            "row_content": "<p>We reserve the right to update this Refunds and Returns Policy at any time. Any changes will be posted on this page, and significant updates will be communicated via email or a notice on our Website.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_gHdYaT",
+        "collapsible_row_bVThVW",
+        "collapsible_row_hr3dE4",
+        "collapsible_row_4V6aQf",
+        "collapsible_row_gL7dAC",
+        "collapsible_row_WeYAFR",
+        "collapsible_row_wcPzbE",
+        "collapsible_row_tXwyxY"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "",
+        "container_color_scheme": "",
+        "open_first_collapsible_row": true,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_w6QjUi": {
+      "type": "rich-text",
+      "blocks": {
+        "text_xRaAJy": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Thank you for choosing <strong>The Bamboo Skin</strong>. We value your trust and look forward to serving you again!</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_xRaAJy"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "rich_text_xLwLJm",
+    "collapsible_content_eGMLqA",
+    "rich_text_w6QjUi"
+  ]
+}

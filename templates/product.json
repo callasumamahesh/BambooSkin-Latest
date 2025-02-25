@@ -14,17 +14,21 @@
       "blocks": {
         "title": {
           "type": "title",
-          "settings": {
-          }
+          "settings": {}
         },
         "price": {
           "type": "price",
-          "settings": {
-          }
+          "settings": {}
         },
         "description": {
           "type": "description",
+          "settings": {}
+        },
+        "buy_buttons_PdjeE7": {
+          "type": "buy_buttons",
           "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true
           }
         },
         "collapsible-row-1": {
@@ -65,6 +69,7 @@
         "title",
         "price",
         "description",
+        "buy_buttons_PdjeE7",
         "collapsible-row-1",
         "collapsible-row-0",
         "collapsible-row-2",
@@ -77,7 +82,7 @@
         "constrain_to_viewport": false,
         "media_fit": "cover",
         "gallery_layout": "thumbnail_slider",
-        "media_position": "right",
+        "media_position": "left",
         "image_zoom": "lightbox",
         "mobile_thumbnails": "hide",
         "hide_variants": true,
@@ -88,6 +93,7 @@
     },
     "quick-order-list": {
       "type": "quick-order-list",
+      "disabled": true,
       "settings": {
         "show_image": true,
         "show_sku": true,
@@ -99,12 +105,12 @@
     "related-products": {
       "type": "related-products",
       "settings": {
-        "heading": "Other industry favorites",
-        "heading_size": "h2",
+        "heading": "Related Products",
+        "heading_size": "h0",
         "products_to_show": 5,
-        "columns_desktop": 5,
+        "columns_desktop": 4,
         "color_scheme": "scheme-1",
-        "image_ratio": "adapt",
+        "image_ratio": "square",
         "image_shape": "default",
         "show_secondary_image": false,
         "show_vendor": false,

@@ -1,0 +1,198 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "rich_text_TgiGxT": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_dJfaDn": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Terms And Conditions Page Copy For The Bamboo Skin</strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_zpNTbM": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Effective Date:</strong> [DATE]</p><p>Welcome to <strong>The Bamboo Skin (“the Website”)</strong>, owned and operated by <strong>The Bamboo Skin (“we,” “our,” or “us”)</strong>. By accessing or using our Website, you agree to comply with and be bound by these Terms and Conditions (“Terms”). If you do not agree to these Terms, please refrain from using our Website.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_dJfaDn",
+        "text_zpNTbM"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "collapsible_content_jTKmfB": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_BEM3tn": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "General Information",
+            "icon": "none",
+            "row_content": "<ul><li><strong>Website Name:</strong> thebambooskin.com</li><li><strong>Business Name:</strong> The Bamboo Skin</li><li><strong>Contact Email:</strong> [EMAIL]</li><li><strong>Business Address:</strong> [Address]</li></ul><p>These Terms govern your use of our Website and any transactions conducted on it.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_TQNQWe": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Use of the Website",
+            "icon": "none",
+            "row_content": "<h4><strong>Eligibility</strong></h4><p>By using the Website, you represent that you:</p><ol><li>Are at least 18 years old or have the consent of a parent or legal guardian.</li><li>Have the legal capacity to enter into a binding agreement.</li></ol><h4><strong>Prohibited Activities</strong></h4><p>You agree not to:</p><ul><li>Use the Website for unlawful purposes.</li><li>Violate any applicable laws or regulations.</li><li>Interfere with the Website’s security or attempt unauthorized access to its systems.</li><li>Use the Website to transmit harmful code or spam.</li></ul>",
+            "page": ""
+          }
+        },
+        "collapsible_row_88J7hR": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Products and Orders",
+            "icon": "none",
+            "row_content": "<h4><strong>Product Descriptions</strong></h4><p>We strive to provide accurate descriptions and images of our bamboo clothing. However, slight variations in color, size, or texture may occur due to manufacturing differences.</p><h4><strong>Pricing and Availability</strong></h4><ul><li>Prices are listed in [currency] and are subject to change without notice.</li><li>Product availability is not guaranteed and may be limited.</li></ul><h4><strong>Order Process</strong></h4><ol><li>Add products to your cart and proceed to checkout.</li><li>Review your order and provide accurate billing and shipping information.</li><li>Confirm your order and make payment via our secure payment gateway.</li><li>You will receive an email confirmation upon successful order placement.</li></ol><h4><strong>Right to Refuse Orders</strong></h4><p>We reserve the right to refuse or cancel orders for any reason, including suspected fraud or incorrect pricing.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_j3tc8X": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Payment",
+            "icon": "none",
+            "row_content": "<ul><li>All payments are processed securely through third-party payment providers.</li><li>We accept major credit/debit cards and other payment methods listed at checkout.</li><li>You are responsible for ensuring sufficient funds and correct payment details.</li></ul>",
+            "page": ""
+          }
+        },
+        "collapsible_row_dWwgry": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Shipping and Delivery",
+            "icon": "none",
+            "row_content": "<h4><strong>Shipping</strong></h4><ul><li>We offer shipping to [list of regions/countries].</li><li>Shipping costs and estimated delivery times will be displayed at checkout.</li></ul><h4><strong>Delays</strong></h4><p>We are not responsible for delivery delays caused by carriers, customs, or unforeseen events.</p><h4><strong>Risk of Loss</strong></h4><p>Ownership and risk of loss pass to you upon delivery.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_ffcaj3": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Returns and Refunds",
+            "icon": "none",
+            "row_content": "<h4><strong>Eligibility</strong></h4><ul><li>Items must be unused, in original packaging, and returned within [return period, e.g., 30 days].</li><li>Certain items (e.g., undergarments) may not be eligible for return due to hygiene reasons.</li></ul><h4><strong>Process</strong></h4><ol><li>Contact us at [EMAIL] to initiate a return.</li><li>Provide proof of purchase and reason for return.</li><li>Ship the item back to us at [return address].</li></ol><h4><strong>Refunds</strong></h4><ul><li>Approved refunds will be processed within [timeframe, e.g., 7-14 days].</li><li>Refunds are issued to the original payment method.</li></ul>",
+            "page": ""
+          }
+        },
+        "collapsible_row_geAVFr": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Intellectual Property",
+            "icon": "none",
+            "row_content": "<p>All content on the Website, including text, images, logos, and designs, is the property of <strong>The Bamboo Skin</strong> and protected by intellectual property laws. Unauthorized use is strictly prohibited.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_rJ6BqB": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Limitation of Liability",
+            "icon": "none",
+            "row_content": "<p>To the fullest extent permitted by law:</p><ul><li>We are not liable for indirect, incidental, or consequential damages arising from your use of the Website.</li><li>Our total liability is limited to the amount paid by you for the products.</li></ul>",
+            "page": ""
+          }
+        },
+        "collapsible_row_mhRpgc": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Privacy Policy",
+            "icon": "none",
+            "row_content": "<p>Your use of the Website is also governed by our <strong>Privacy Policy</strong>, which explains how we collect, use, and protect your personal data. Please review it carefully.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_EtV8Xn": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Termination",
+            "icon": "none",
+            "row_content": "<p>We reserve the right to terminate or restrict your access to the Website at our discretion, without notice, for any violation of these Terms or other lawful reasons.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_Tmkix4": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Governing Law and Dispute Resolution",
+            "icon": "none",
+            "row_content": "<p>These Terms are governed by the laws of [country/state], and any disputes arising from these Terms will be resolved in the courts of [jurisdiction].</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_xirxEe": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Changes to Terms",
+            "icon": "none",
+            "row_content": "<p>We may update these Terms from time to time. Any changes will be effective immediately upon posting. Your continued use of the Website signifies acceptance of the updated Terms.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_z3V6tU": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Contact Us",
+            "icon": "none",
+            "row_content": "<p>If you have questions or concerns about these Terms, please contact us:</p><ul><li><strong>Email:</strong> [EMAIL]</li><li><strong>Address:</strong> [Address]</li></ul><p>Thank you for shopping with <strong>The Bamboo Skin</strong>!</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_BEM3tn",
+        "collapsible_row_TQNQWe",
+        "collapsible_row_88J7hR",
+        "collapsible_row_j3tc8X",
+        "collapsible_row_dWwgry",
+        "collapsible_row_ffcaj3",
+        "collapsible_row_geAVFr",
+        "collapsible_row_rJ6BqB",
+        "collapsible_row_mhRpgc",
+        "collapsible_row_EtV8Xn",
+        "collapsible_row_Tmkix4",
+        "collapsible_row_xirxEe",
+        "collapsible_row_z3V6tU"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "",
+        "container_color_scheme": "",
+        "open_first_collapsible_row": true,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "rich_text_TgiGxT",
+    "collapsible_content_jTKmfB"
+  ]
+}

@@ -64,13 +64,13 @@
         "collection_k8f4Dt": {
           "type": "collection",
           "settings": {
-            "collection": "childrens-wearing"
+            "collection": "womens-wearing"
           }
         },
         "collection_yCj3mQ": {
           "type": "collection",
           "settings": {
-            "collection": "womens-wearing"
+            "collection": "childrens-wearing"
           }
         },
         "collection_iEd4mg": {
@@ -96,60 +96,43 @@
         "padding_bottom": 36
       }
     },
-    "multicolumn_U3BnJH": {
-      "type": "multicolumn",
+    "image_hover_gallery_gNLUgU": {
+      "type": "image-hover-gallery",
       "blocks": {
-        "column_rCd9xn": {
-          "type": "column",
+        "image_item_kcybb7": {
+          "type": "image_item",
           "settings": {
             "image": "shopify://shop_images/BambooCloth1.webp",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
+            "title": "Image Title",
+            "text": "Your description here"
           }
         },
-        "column_NikAQL": {
-          "type": "column",
+        "image_item_eYzkA6": {
+          "type": "image_item",
           "settings": {
             "image": "shopify://shop_images/BambooCloth2.webp",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
+            "title": "Image Title",
+            "text": "Your description here"
           }
         },
-        "column_RwbeNr": {
-          "type": "column",
+        "image_item_GWinyp": {
+          "type": "image_item",
           "settings": {
             "image": "shopify://shop_images/BambooCloth3.webp",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
+            "title": "Image Title",
+            "text": "Your description here"
           }
         }
       },
       "block_order": [
-        "column_rCd9xn",
-        "column_NikAQL",
-        "column_RwbeNr"
+        "image_item_kcybb7",
+        "image_item_eYzkA6",
+        "image_item_GWinyp"
       ],
       "settings": {
-        "title": "Why Bamboo Clothing",
-        "heading_size": "hxl",
-        "image_width": "full",
-        "image_ratio": "portrait",
-        "columns_desktop": 3,
-        "column_alignment": "left",
-        "background_style": "primary",
-        "button_label": "Button label",
-        "button_link": "",
-        "color_scheme": "scheme-c7ba4a08-a0e3-4284-b1fe-c66898169489",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
+        "title": "Why Bamboo Clothing...",
+        "columns": "3",
+        "image_ratio": 0.9
       }
     },
     "image_banner_gmKbqN": {
@@ -199,12 +182,124 @@
         "stack_images_on_mobile": false,
         "show_text_below": false
       }
+    },
+    "sticky_scroll_gallery_4mdF7h": {
+      "type": "sticky-scroll-gallery",
+      "blocks": {
+        "scroll_image_G9BhnT": {
+          "type": "scroll_image",
+          "settings": {
+            "image": "shopify://shop_images/Womens_Wear.webp",
+            "title": "Image Title",
+            "subtitle": "Image subtitle or description"
+          }
+        },
+        "scroll_image_pVFtK7": {
+          "type": "scroll_image",
+          "settings": {
+            "image": "shopify://shop_images/Childrens_Wearing_Collection.webp",
+            "title": "Image Title",
+            "subtitle": "Image subtitle or description"
+          }
+        },
+        "scroll_image_xNG8pt": {
+          "type": "scroll_image",
+          "settings": {
+            "image": "shopify://shop_images/Breathable_bamboo.webp",
+            "title": "Image Title",
+            "subtitle": "Image subtitle or description"
+          }
+        },
+        "scroll_image_hX98C7": {
+          "type": "scroll_image",
+          "settings": {
+            "image": "shopify://shop_images/men_s_wearing.webp",
+            "title": "Image Title",
+            "subtitle": "Image subtitle or description"
+          }
+        }
+      },
+      "block_order": [
+        "scroll_image_G9BhnT",
+        "scroll_image_pVFtK7",
+        "scroll_image_xNG8pt",
+        "scroll_image_hX98C7"
+      ],
+      "settings": {
+        "sticky_image": "shopify://shop_images/Greener_Future.webp"
+      }
+    },
+    "carsouel_hover_image_fqk4Xy": {
+      "type": "carsouel-hover-image",
+      "blocks": {
+        "testimonial_g66Yda": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify://shop_images/About_us-2.webp",
+            "title": "Customer Name",
+            "description": "Add your testimonial description here"
+          }
+        },
+        "testimonial_LtDPwr": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify://shop_images/Womens_Wear.webp",
+            "title": "Customer Name",
+            "description": "Add your testimonial description here"
+          }
+        },
+        "testimonial_rWxjqc": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify://shop_images/Childrens_Wear.webp",
+            "title": "Customer Name",
+            "description": "Add your testimonial description here"
+          }
+        },
+        "testimonial_6x8hwh": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify://shop_images/Mens_Wear.webp",
+            "title": "Customer Name",
+            "description": "Add your testimonial description here"
+          }
+        },
+        "testimonial_pieeLB": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify://shop_images/Womens_Wearing_Collection.webp",
+            "title": "Customer Name",
+            "description": "Add your testimonial description here"
+          }
+        },
+        "testimonial_GiAPVH": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify://shop_images/ImageBarer1.webp",
+            "title": "Customer Name",
+            "description": "Add your testimonial description here"
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_g66Yda",
+        "testimonial_LtDPwr",
+        "testimonial_rWxjqc",
+        "testimonial_6x8hwh",
+        "testimonial_pieeLB",
+        "testimonial_GiAPVH"
+      ],
+      "settings": {
+        "heading": "See What Customers Say About Us"
+      }
     }
   },
   "order": [
     "image_banner_p3XEz8",
     "collage_mr9Pbz",
-    "multicolumn_U3BnJH",
-    "image_banner_gmKbqN"
+    "image_hover_gallery_gNLUgU",
+    "image_banner_gmKbqN",
+    "sticky_scroll_gallery_4mdF7h",
+    "carsouel_hover_image_fqk4Xy"
   ]
 }

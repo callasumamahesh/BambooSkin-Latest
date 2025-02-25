@@ -1,0 +1,129 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "image_banner_XFzNKp": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_3nryJA": {
+          "type": "heading",
+          "settings": {
+            "heading": "Know About us",
+            "heading_size": "hxxl"
+          }
+        }
+      },
+      "block_order": [
+        "heading_3nryJA"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/about-us_1.webp",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-4",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "multirow_DqmQ7r": {
+      "type": "multirow",
+      "blocks": {
+        "row_kN8QQm": {
+          "type": "row",
+          "settings": {
+            "caption": "",
+            "heading": "OUR STORE",
+            "text": "<p>The Bamboo Skin was founded with a vision to create clothing that’s not just good for the wearer but also for the planet. We recognized the growing demand for sustainable alternatives in the fashion industry and sought to address it by offering bamboo clothing that’s as kind to your skin as it is to the environment.</p><p>​Our journey began with a simple idea: to transform the incredibly sustainable bamboo plant into soft, breathable fabrics that people love to wear. Today, we take pride in crafting a wide range of clothing designed for every occasion while staying true to our commitment to sustainability.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "row_kN8QQm"
+      ],
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "",
+        "row_color_scheme": "",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_hover_gallery_8nViDC": {
+      "type": "image-hover-gallery",
+      "blocks": {
+        "image_item_Gzw4tf": {
+          "type": "image_item",
+          "settings": {
+            "image": "shopify://shop_images/BambooCloth1.webp",
+            "title": "Image Title",
+            "text": "Your description here"
+          }
+        },
+        "image_item_RUh6mP": {
+          "type": "image_item",
+          "settings": {
+            "image": "shopify://shop_images/BambooCloth2.webp",
+            "title": "Image Title",
+            "text": "Your description here"
+          }
+        },
+        "image_item_DkPGjq": {
+          "type": "image_item",
+          "settings": {
+            "image": "shopify://shop_images/BambooCloth3.webp",
+            "title": "Image Title",
+            "text": "Your description here"
+          }
+        }
+      },
+      "block_order": [
+        "image_item_Gzw4tf",
+        "image_item_RUh6mP",
+        "image_item_DkPGjq"
+      ],
+      "custom_css": [
+        ".image-item img {border-radius: 4px;}",
+        ".image-item:hover {border-radius: 4px;}"
+      ],
+      "settings": {
+        "title": "Why Bamboo Clothing...",
+        "columns": "3",
+        "image_ratio": 0.9
+      }
+    },
+    "our-values": {
+      "type": "our-values",
+      "settings": {
+        "values_image": "shopify://shop_images/ImageBarer1.webp"
+      }
+    }
+  },
+  "order": [
+    "image_banner_XFzNKp",
+    "multirow_DqmQ7r",
+    "image_hover_gallery_8nViDC",
+    "our-values"
+  ]
+}

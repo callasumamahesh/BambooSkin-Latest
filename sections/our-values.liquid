@@ -1,0 +1,104 @@
+{% schema %}
+{
+  "name": "Our Values",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "values_image",
+      "label": "Upload or Select an Image"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Our Values Section"
+    }
+  ]
+}
+{% endschema %}
+
+
+<style>
+  .main-values{
+    padding:30px 15px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+  }
+
+  .values{
+    max-width:1100px;
+    display:grid;
+    grid-template-columns:1fr 1fr;  
+    gap:40px;
+  }
+  .values .heading{
+    font-size:5rem;
+    font-weight:900;
+  }
+  .our-sections{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:20px;
+  }
+  h3{
+    font-weight:600;
+  }
+  .our-values-image{
+    width:100%;
+    border-radius:10px;
+    height:100%;
+  }
+
+  @media (max-width:750px){
+    .values{
+      display:flex;
+      flex-direction:column;
+    }
+    .our-sections{
+      grid-template-columns:1fr;
+    }
+  }
+
+</style>
+
+<section class="main-values">
+  
+  <div class="values">
+    <!-- Left: Text Content -->
+    <div>
+      <h2 class="heading">Our Values</h2> 
+      <div class="our-sections">
+        <div>
+          <h3 class="text-xl font-semibold">Sustainability</h3>
+          <p class="text-gray-600">From sourcing to production, we strive to minimize our environmental impact.</p>
+        </div>
+        <div>
+          <h3 class="text-xl font-semibold">Quality</h3>
+          <p class="text-gray-600">We ensure that every piece of clothing meets the highest standards of craftsmanship.</p>
+        </div>
+        <div>
+          <h3 class="text-xl font-semibold">Customer-Centricity</h3>
+          <p class="text-gray-600">Your comfort and satisfaction are at the core of everything we do.</p>
+        </div>
+        <div>
+          <h3 class="text-xl font-semibold">Innovation</h3>
+          <p class="text-gray-600">We explore new ways to make sustainable fashion accessible and stylish.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Right: Image -->
+    <div class="flex justify-center">
+      {% if section.settings.values_image != blank %}
+        <img 
+          src="{{ section.settings.values_image | img_url: 'large' }}" 
+          alt="Our Values Image" 
+          class="rounded-lg shadow-lg max-w-full our-values-image"
+        >
+      {% else %}
+        <p class="text-gray-500 text-center">No image selected</p>
+      {% endif %}
+    </div>
+  </div>
+</section>

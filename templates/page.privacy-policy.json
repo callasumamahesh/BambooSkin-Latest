@@ -1,0 +1,201 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "rich_text_pR6FzE": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_Bf3BkD": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Privacy Policy Page Copy For The Bamboo Skin</strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_LgpDAi": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>The Bamboo Skin (“we,” “our,” or “us”)</strong> is committed to protecting your personal data and respecting your privacy. This Privacy Policy explains how we collect, use, and protect your personal information when you visit or interact with our website, <strong>thebambooskin.com</strong> (“the Website”). This policy is in compliance with the General Data Protection Regulation (GDPR) and other applicable data protection laws.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_Bf3BkD",
+        "text_LgpDAi"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "collapsible_content_JgE4Ak": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_737bgq": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Information We Collect",
+            "icon": "none",
+            "row_content": "<h4><strong>a. Information You Provide to Us</strong></h4><ul><li>Name</li><li>Email address</li><li>Phone number</li><li>Shipping and billing addresses</li><li>Payment details (processed securely by third-party payment providers)</li><li>Account login details (if you create an account)</li></ul><h4><strong>b. Information Collected Automatically</strong></h4><ul><li>IP address</li><li>Browser type and version</li><li>Device type and operating system</li><li>Pages you visit on our Website</li><li>Referring website addresses</li></ul><h4><strong>c. Cookies and Tracking Technologies</strong></h4><p>We use cookies and similar technologies to enhance your browsing experience. For more details, refer to our <strong>Cookie Policy</strong> below.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_dGT36Q": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How We Use Your Information",
+            "icon": "none",
+            "row_content": "<p>We process your personal data for the following purposes:</p><ol><li><strong>Order Fulfillment:</strong> To process, ship, and manage your orders.</li><li><strong>Customer Support:</strong> To respond to your inquiries or resolve issues.</li><li><strong>Marketing:</strong> To send promotional materials and newsletters (only with your explicit consent).</li><li><strong>Personalization:</strong> To tailor content, offers, and advertising to your preferences.</li><li><strong>Legal Compliance:</strong> To comply with legal obligations, such as tax and accounting requirements.</li><li><strong>Analytics:</strong> To monitor website performance and improve our services.</li></ol>",
+            "page": ""
+          }
+        },
+        "collapsible_row_EFk6AX": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Legal Basis for Processing",
+            "icon": "none",
+            "row_content": "<p>We process your personal data based on the following legal grounds:</p><ul><li><strong>Contractual Necessity:</strong> To fulfill orders and provide customer service.</li><li><strong>Legitimate Interests:</strong> For analytics, fraud prevention, and improving our services.</li><li><strong>Consent:</strong> For marketing communications and non-essential cookies (you can withdraw consent at any time).</li><li><strong>Legal Obligations:</strong> To comply with applicable laws and regulations.</li></ul>",
+            "page": ""
+          }
+        },
+        "collapsible_row_7hw8z8": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Sharing Your Information",
+            "icon": "none",
+            "row_content": "<p>We do not sell your personal data to third parties. However, we may share your data with:</p><ul><li><strong>Service Providers:</strong> Payment processors, shipping companies, and marketing platforms.</li><li><strong>Legal Authorities:</strong> When required by law or to protect our rights.</li><li><strong>Analytics Providers:</strong> For website performance and usage analytics.</li></ul><p>All third-party service providers are contractually obligated to protect your data in accordance with GDPR.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_m4UAxn": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "International Data Transfers",
+            "icon": "none",
+            "row_content": "<p>If your personal data is transferred outside the European Economic Area (EEA), we ensure that it is protected with appropriate safeguards, such as standard contractual clauses or binding corporate rules.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_rgjczE": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Your Rights",
+            "icon": "none",
+            "row_content": "<p>Under GDPR, you have the following rights regarding your personal data:</p><ul><li><strong>Access:</strong> Request a copy of your data.</li><li><strong>Rectification:</strong> Correct inaccurate or incomplete data.</li><li><strong>Erasure:</strong> Request deletion of your data, subject to legal requirements.</li><li><strong>Restriction:</strong> Limit the processing of your data.</li><li><strong>Data Portability:</strong> Obtain your data in a machine-readable format.</li><li><strong>Objection:</strong> Object to processing for direct marketing or other legitimate interests.</li><li><strong>Withdraw Consent:</strong> Revoke consent for processing activities relying on it.</li></ul><p>To exercise these rights, contact us at <strong>[EMAIL]</strong>.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_kDDGUk": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Data Retention",
+            "icon": "none",
+            "row_content": "<p>We retain your personal data only as long as necessary for the purposes outlined in this Privacy Policy, unless a longer retention period is required by law.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_abPcxA": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Data Security",
+            "icon": "none",
+            "row_content": "<p>We implement appropriate technical and organizational measures to protect your data against unauthorized access, alteration, disclosure, or destruction. These include encryption, firewalls, and secure hosting environments.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_tNHwUQ": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Cookies",
+            "icon": "none",
+            "row_content": "<p>Our Website uses cookies to:</p><ul><li>Ensure the Website functions properly.</li><li>Enhance user experience.</li><li>Analyze website traffic.</li></ul><p>You can manage your cookie preferences through your browser settings or our cookie consent tool.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_jy3YXk": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Updates to This Policy",
+            "icon": "none",
+            "row_content": "<p>We may update this Privacy Policy to reflect changes in our practices or legal requirements. We encourage you to review this page periodically. Significant changes will be communicated via email or a prominent notice on the Website.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_R7LaXL": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Contact Us",
+            "icon": "none",
+            "row_content": "<p>If you have questions about this Privacy Policy or wish to exercise your rights, please contact us:</p><ul><li><strong>Email:</strong> [EMAIL]</li><li><strong>Address:</strong> [Address]</li></ul>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_737bgq",
+        "collapsible_row_dGT36Q",
+        "collapsible_row_EFk6AX",
+        "collapsible_row_7hw8z8",
+        "collapsible_row_m4UAxn",
+        "collapsible_row_rgjczE",
+        "collapsible_row_kDDGUk",
+        "collapsible_row_abPcxA",
+        "collapsible_row_tNHwUQ",
+        "collapsible_row_jy3YXk",
+        "collapsible_row_R7LaXL"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "",
+        "container_color_scheme": "",
+        "open_first_collapsible_row": true,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_CqiMBr": {
+      "type": "rich-text",
+      "blocks": {
+        "text_Gx9p6R": {
+          "type": "text",
+          "settings": {
+            "text": "<p>By using our Website, you agree to the terms of this Privacy Policy.</p><p>Thank you for trusting <strong>The Bamboo Skin</strong>!</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_Gx9p6R"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "rich_text_pR6FzE",
+    "collapsible_content_JgE4Ak",
+    "rich_text_CqiMBr"
+  ]
+}

@@ -1,0 +1,199 @@
+{% schema %}
+{
+  "name": "Image Grid Gallery",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Section Title",
+      "default": "Our Gallery"
+    },
+    {
+      "type": "select",
+      "id": "columns",
+      "label": "Columns per row",
+      "options": [
+        {
+          "value": "2",
+          "label": "2 Columns"
+        },
+        {
+          "value": "3",
+          "label": "3 Columns"
+        },
+        {
+          "value": "4",
+          "label": "4 Columns"
+        }
+      ],
+      "default": "3"
+    },
+    {
+      "type": "range",
+      "id": "image_ratio",
+      "min": 0.5,
+      "max": 1.5,
+      "step": 0.1,
+      "unit": ":1",
+      "label": "Image Aspect Ratio",
+      "default": 1.0
+    }
+  ],
+  "blocks": [
+    {
+      "type": "image_item",
+      "name": "Image Item",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Hover Title",
+          "default": "Image Title"
+        },
+        {
+          "type": "textarea",
+          "id": "text",
+          "label": "Hover Text",
+          "default": "Your description here"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Image Grid Gallery",
+      "blocks": [
+        {
+          "type": "image_item"
+        },
+        {
+          "type": "image_item"
+        },
+        {
+          "type": "image_item"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}
+
+<style>
+.hover-gallery {
+  padding: 0px 50px;
+  margin-bottom:40px;
+}
+.text-center{
+  margin:20px 0px;
+  font-size: clamp(calc(var(--font-heading-scale) * 5.6rem), 14vw, calc(var(--font-heading-scale) * 7.2rem));
+}
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat({{ section.settings.columns }}, 1fr);
+  gap: 0;
+  padding: 0;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.image-item {
+  position: relative;
+  overflow: hidden;
+  aspect-ratio: {{ section.settings.image_ratio }};
+  border: 8px solid white;
+  background-color: #f5f5f5;
+}
+
+.image-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease, opacity 0.5s ease;
+}
+
+.hover-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 20px;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.image-item:hover img {
+  transform: scale(1.1);
+  opacity: 0.7;
+}
+
+.image-item:hover .hover-content {
+  opacity: 1;
+}
+
+.hover-content h3 {
+  margin-bottom: 10px;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.hover-content p {
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+@media screen and (max-width: 768px) {
+  .image-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .image-grid {
+    grid-template-columns: 1fr;
+  }
+}
+@media (max-width: 600px){
+  .text-center{
+    font-size:4rem;
+  }
+  .hover-gallery{
+    padding:0px 15px;
+  }
+}
+</style>
+
+<div class="hover-gallery page-width">
+  {% if section.settings.title != blank %}
+    <h2 class="text-center">{{ section.settings.title }}</h2>
+  {% endif %}
+  
+  <div class="image-grid">
+    {% for block in section.blocks %}
+      <div class="image-item" {{ block.shopify_attributes }}>
+        {% if block.settings.image %}
+          {{ block.settings.image | image_url: width: 800 | image_tag }}
+        {% else %}
+          {{ 'lifestyle-1' | placeholder_svg_tag }}
+        {% endif %}
+        
+        <div class="hover-content">
+          <h3>{{ block.settings.title }}</h3>
+          <p>{{ block.settings.text }}</p>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</div>

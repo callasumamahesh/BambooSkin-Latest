@@ -1,0 +1,151 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "rich_text_xjHK36": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_DryEyK": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Cookie Policy for The Bamboo Skin</strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_8zAdLU": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Effective Date:</strong> [DATE]<br/> <strong>Last Updated:</strong> [DATE]</p><p>This Cookie Policy explains how The Bamboo Skin (\"we,\" \"us,\" or \"our\") uses cookies and similar technologies on our website (\"thebambooskin.com\"). By continuing to use our website, you agree to the use of cookies as outlined in this policy.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_DryEyK",
+        "text_8zAdLU"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "collapsible_content_FbXf4F": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_3AVgMC": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What Are Cookies?",
+            "icon": "none",
+            "row_content": "<p>Cookies are small text files that are placed on your device (computer, tablet, or smartphone) when you visit a website. They help websites recognize your device, enhance your browsing experience, and provide relevant information.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_pYzCeQ": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Types of Cookies We Use",
+            "icon": "none",
+            "row_content": "<h3><strong>1. Essential Cookies</strong></h3><p>These cookies are necessary for the basic functioning of our website. They allow you to browse our site, add items to your cart, and complete transactions.</p><ul><li>Examples:</li><li>Session cookies to maintain login status.</li><li>Cart cookies to remember your selected items.</li></ul><h3><strong>2. Performance Cookies</strong></h3><p>Performance cookies help us understand how visitors interact with our website. They collect anonymized data about pages visited, time spent on the site, and error messages encountered.</p><ul><li>Examples:</li><li>Google Analytics cookies for website traffic analysis.</li></ul><h3><strong>3. Functionality Cookies</strong></h3><p>These cookies allow us to provide a more personalized experience by remembering your preferences, such as language settings or region selection.</p><ul><li>Examples:</li><li>Cookies to save your preferences for future visits.</li></ul><h3><strong>4. Targeting/Advertising Cookies</strong></h3><p>These cookies track your browsing activity to show you relevant ads and measure the effectiveness of our marketing campaigns. They may also be used by third-party advertisers on our site.</p><ul><li>Examples:</li><li>Facebook Pixel for retargeting.</li><li>Google Ads cookies for personalized advertising.</li></ul>",
+            "page": ""
+          }
+        },
+        "collapsible_row_WjeE6L": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Third-Party Cookies",
+            "icon": "none",
+            "row_content": "<p>We may allow third-party services to place cookies on your device to provide additional functionality or advertising services. These third-party services are subject to their own privacy policies.</p><p>Examples include:</p><ul><li>Social media platforms like Facebook, Instagram, and Pinterest.</li><li>Analytics providers like Google Analytics.</li></ul>",
+            "page": ""
+          }
+        },
+        "collapsible_row_wKKAdx": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How to Manage Cookies",
+            "icon": "none",
+            "row_content": "<p>You can control and manage cookies through your browser settings. Most browsers allow you to:</p><ul><li>View what cookies are stored on your device.</li><li>Block or delete cookies from specific websites.</li><li>Set preferences to block all cookies or certain types of cookies.</li></ul><p>Please note that disabling cookies may affect the functionality of our website and limit your ability to use certain features.</p><h3><strong>Browser-Specific Instructions:</strong></h3><ul><li><strong>Google Chrome:</strong><a href=\"https://support.google.com/chrome/answer/95647\"> <span style=\"text-decoration:underline\">Manage Cookies</span></a></li><li><strong>Firefox:</strong><a href=\"https://support.mozilla.org/en-US/kb/clear-cookies-and-site-data-firefox\"> <span style=\"text-decoration:underline\">Clear Cookies</span></a></li><li><strong>Safari:</strong><a href=\"https://support.apple.com/guide/safari/manage-cookies-and-website-data-sfri11471/mac\"> <span style=\"text-decoration:underline\">Manage Cookies</span></a></li><li><strong>Microsoft Edge:</strong><a href=\"https://support.microsoft.com/en-us/microsoft-edge/delete-cookies-in-microsoft-edge-63947406-40ac-c3b8-57b9-2a946a29ae09\"> <span style=\"text-decoration:underline\">Clear Browsing Data</span></a></li></ul>",
+            "page": ""
+          }
+        },
+        "collapsible_row_A8PYmm": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Changes to This Policy",
+            "icon": "none",
+            "row_content": "<p>We may update this Cookie Policy from time to time to reflect changes in technology, legal requirements, or our business operations. The \"Last Updated\" date at the top of this policy will indicate when it was last revised.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_tqfJW6": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Contact Us",
+            "icon": "none",
+            "row_content": "<p>If you have any questions about our Cookie Policy or how we use cookies, please contact us at:</p><p><strong>The Bamboo Skin</strong> Email: [EMAIL] Address: [ADDRESS]</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_3AVgMC",
+        "collapsible_row_pYzCeQ",
+        "collapsible_row_WjeE6L",
+        "collapsible_row_wKKAdx",
+        "collapsible_row_A8PYmm",
+        "collapsible_row_tqfJW6"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "",
+        "container_color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_9xgjBd": {
+      "type": "rich-text",
+      "blocks": {
+        "text_ed6npb": {
+          "type": "text",
+          "settings": {
+            "text": "<p>By continuing to use our website, you agree to the use of cookies as described in this policy.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_ed6npb"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "rich_text_xjHK36",
+    "collapsible_content_FbXf4F",
+    "rich_text_9xgjBd"
+  ]
+}
